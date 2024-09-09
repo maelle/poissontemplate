@@ -1,14 +1,14 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>/404.html</loc></url>
-<url><loc>/LICENSE-text.html</loc></url>
-<url><loc>/LICENSE.html</loc></url>
-<url><loc>/articles/bullets.html</loc></url>
-<url><loc>/articles/headings.html</loc></url>
-<url><loc>/articles/index.html</loc></url>
-<url><loc>/authors.html</loc></url>
-<url><loc>/index.html</loc></url>
-<url><loc>/reference/index.html</loc></url>
-<url><loc>/reference/ruler.html</loc></url>
-<url><loc>/reference/test.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/404.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/LICENSE-text.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/LICENSE.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/articles/bullets.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/articles/headings.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/articles/index.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/authors.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/index.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/reference/index.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/reference/ruler.html</loc></url>
+<url><loc>https://maelle.github.io/poissontemplate/reference/test.html</loc></url>
 </urlset>
 
