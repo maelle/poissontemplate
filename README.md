@@ -10,6 +10,18 @@ Please don’t use it for your own package.
 
 ## Setup
 
+### Register the use of the template
+
+In `_pkgdown.yml` that you can create through `usethis::use_pkgdown()` if absent,
+have these lines:
+
+```yaml
+template:
+  package: poissontemplate
+```
+
+### For continuous integration
+
 For all sites, ensure that DESCRIPTION contains:
 
 ```yaml
