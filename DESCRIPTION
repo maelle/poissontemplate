@@ -4,6 +4,7 @@ Version: 0.0.0.9000
 Authors@R: c(
     person("Joe", "Thorley", , "joe@poissonconsulting.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7683-4592")),
+    person("Ayla", "Pearson", role = "aut"),
     person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = "aut",
            comment = c(ORCID = "0000-0002-2815-0399")),
     person("Poisson Consulting", role = "fnd")
