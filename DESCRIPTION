@@ -5,7 +5,8 @@ Authors@R: c(
     person("Joe", "Thorley", , "joe@poissonconsulting.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7683-4592")),
     person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = "aut",
-           comment = c(ORCID = "0000-0002-2815-0399"))
+           comment = c(ORCID = "0000-0002-2815-0399")),
+    person("Poisson Consulting", role = "fnd")
   )
 Description: This is a private template for use by Poisson consulting
     packages.  Please don't use for your own code.
