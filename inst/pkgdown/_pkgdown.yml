@@ -1,0 +1,9 @@
+template:
+  bootstrap: 5
+
+authors:
+  Poisson Consulting:
+    href: https://www.poissonconsulting.ca/
+    html: <img src='https://github.com/poissonconsulting.png' height=24 alt="">
+  Joe Thorley:
+    href: https://github.com/joethorley
