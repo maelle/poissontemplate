@@ -1,5 +1,9 @@
 template:
   bootstrap: 5
+  bslib:
+    primary: "#428bca"
+    base_font: {google: "Roboto Condensed"}
+    heading_font: {google: "Playfair Display"}
 
 authors:
   Poisson Consulting:
