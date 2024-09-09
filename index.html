@@ -71,15 +71,26 @@
 <div class="section level2">
 <h2 id="setup">Setup<a class="anchor" aria-label="anchor" href="#setup"></a>
 </h2>
+<div class="section level3">
+<h3 id="register-the-use-of-the-template">Register the use of the template<a class="anchor" aria-label="anchor" href="#register-the-use-of-the-template"></a>
+</h3>
+<p>In <code>_pkgdown.yml</code> that you can create through <code>usethis::use_pkgdown()</code> if absent, have these lines:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">template</span><span class="kw">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="at">  </span><span class="fu">package</span><span class="kw">:</span><span class="at"> poissontemplate</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="for-continuous-integration">For continuous integration<a class="anchor" aria-label="anchor" href="#for-continuous-integration"></a>
+</h3>
 <p>For all sites, ensure that DESCRIPTION contains:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">Config/Needs/website</span><span class="kw">:</span><span class="at"> maelle/poissontemplate</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">Config/Needs/website</span><span class="kw">:</span><span class="at"> maelle/poissontemplate</span></span></code></pre></div>
 <p>by editing the file manually or by running <code>desc::desc_set("Config/Needs/website", "maelle/poissontemplate")</code>.</p>
+</div>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>You can install the development version of poissontemplate from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"maelle/poissontemplate"</span><span class="op">)</span></span></code></pre></div>
 </div>
