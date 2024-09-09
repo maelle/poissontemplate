@@ -39,3 +39,8 @@ You can install the development version of poissontemplate from [GitHub](https:/
 # install.packages("pak")
 pak::pak("maelle/poissontemplate")
 ```
+
+## Relevant resources
+
+- pkgdown documentation about theming: https://pkgdown.r-lib.org/articles/customise.html#theming
+- pkgdown documentation on template packages: https://pkgdown.r-lib.org/articles/customise.html#template-packages
