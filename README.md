@@ -2,6 +2,7 @@
 # poissontemplate
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/maelle/poissontemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/maelle/poissontemplate/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 poissontemplate provides a custom [pkgdown](https://pkgdown.r-lib.org/) template for Poisson consulting packages. 
