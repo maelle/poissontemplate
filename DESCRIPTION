@@ -15,9 +15,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-URL: https://maelle.github.io/poissontemplate/, https://github.com/maelle/poissontemplate
-BugReports: https://github.com/maelle/poissontemplate/issues
-Config/Needs/website: maelle/poissontemplate
+URL: https://poissonconsulting.github.io/poissontemplate/, https://github.com/poissonconsulting/poissontemplate
+BugReports: https://github.com/poissonconsulting/poissontemplate/issues
 Suggests: 
     knitr,
     rmarkdown

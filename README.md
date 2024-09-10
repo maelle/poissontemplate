@@ -2,7 +2,7 @@
 # poissontemplate
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/maelle/poissontemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/maelle/poissontemplate/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/poissonconsulting/poissontemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/poissontemplate/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 poissontemplate provides a custom [pkgdown](https://pkgdown.r-lib.org/) template for Poisson consulting packages. 
@@ -25,10 +25,10 @@ template:
 For all sites, ensure that DESCRIPTION contains:
 
 ```yaml
-Config/Needs/website: maelle/poissontemplate
+Config/Needs/website: poissonconsulting/poissontemplate
 ```
 
-by editing the file manually or by running `desc::desc_set("Config/Needs/website", "maelle/poissontemplate")`.
+by editing the file manually or by running `desc::desc_set("Config/Needs/website", "poissonconsulting/poissontemplate")`.
 
 
 ## Installation
@@ -37,7 +37,7 @@ You can install the development version of poissontemplate from [GitHub](https:/
 
 ``` r
 # install.packages("pak")
-pak::pak("maelle/poissontemplate")
+pak::pak("poissonconsulting/poissontemplate")
 ```
 
 ## Relevant resources
