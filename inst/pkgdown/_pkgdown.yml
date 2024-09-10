@@ -1,8 +1,8 @@
 template:
   bootstrap: 5
   bslib:
-    primary: "#428bca"
-    navbar-light-color: "#428bca"
+    primary: "#255783"
+    navbar-light-color: "#255783"
     base_font: {google: "Roboto Condensed"}
     heading_font: {google: "Playfair Display"}
 
