@@ -8,29 +8,6 @@
 poissontemplate provides a custom [pkgdown](https://pkgdown.r-lib.org/) template for Poisson consulting packages. 
 Please don’t use it for your own package.
 
-## Setup
-
-### Register the use of the template
-
-In `_pkgdown.yml` that you can create through `usethis::use_pkgdown()` if absent,
-have these lines:
-
-```yaml
-template:
-  package: poissontemplate
-```
-
-### For continuous integration
-
-For all sites, ensure that DESCRIPTION contains:
-
-```yaml
-Config/Needs/website: poissonconsulting/poissontemplate
-```
-
-by editing the file manually or by running `desc::desc_set("Config/Needs/website", "poissonconsulting/poissontemplate")`.
-
-
 ## Installation
 
 You can install the development version of poissontemplate from [GitHub](https://github.com/) with:
@@ -38,6 +15,14 @@ You can install the development version of poissontemplate from [GitHub](https:/
 ``` r
 # install.packages("pak")
 pak::pak("poissonconsulting/poissontemplate")
+```
+
+## Setup
+
+In every package where you need to set up poissontemplate usage, run
+
+``` r
+poissontemplate::use_poisson_pkgdown()
 ```
 
 ## Relevant resources
