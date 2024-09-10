@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   bullets: bullets.html
   headings: headings.html
-last_built: 2024-09-09T08:05Z
+last_built: 2024-09-10T09:22Z
 urls:
-  reference: https://maelle.github.io/poissontemplate/reference
-  article: https://maelle.github.io/poissontemplate/articles
+  reference: https://poissonconsulting.github.io/poissontemplate/reference
+  article: https://poissonconsulting.github.io/poissontemplate/articles
