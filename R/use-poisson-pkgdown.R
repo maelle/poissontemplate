@@ -33,7 +33,7 @@ use_poisson_pkgdown <- function(pkg = getwd()) {
     config$template$params$bootswatch <- NULL
     config$template$includes$before_title <- NULL
     if (!is.null(config$template$bootstrap)) {
-      config$template$bootstrap <- 5
+      config$template$bootstrap <- 5L
     }
     yaml::write_yaml(config, file.path(pkg, config_path))
   }
