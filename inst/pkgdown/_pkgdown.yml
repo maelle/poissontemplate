@@ -5,6 +5,7 @@ template:
     navbar-light-color: "#255783"
     base_font: {google: "Roboto Condensed"}
     heading_font: {google: "Playfair Display"}
+    code_font: {google: "Roboto Mono"}
 
 authors:
   Poisson Consulting:
