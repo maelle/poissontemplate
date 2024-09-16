@@ -6,6 +6,7 @@ template:
     base_font: {google: "Roboto Condensed"}
     heading_font: {google: "Playfair Display"}
     code_font: {google: "Roboto Mono"}
+  math-rendering: katex
 
 authors:
   Poisson Consulting:
