@@ -25,6 +25,15 @@ In every package where you need to set up poissontemplate usage, run
 poissontemplate::use_poisson_pkgdown()
 ```
 
+Then contact the owner of Poisson consulting Plausible account to have a domain set up.
+Once it is done, amend and add the following lines to the pkgdown configuration file:
+
+```yaml
+includes:
+    in_header: |
+      <script defer data-domain="{YOUR DOMAIN},poissonconsulting.ca" src="https://plausible.io/js/plausible.js"></script>  
+```
+
 ## Relevant resources
 
 - pkgdown documentation about theming: https://pkgdown.r-lib.org/articles/customise.html#theming
